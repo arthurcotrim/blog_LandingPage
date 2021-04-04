@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/hamburger.css">
     
     <title>Home | Blogr</title>
 </head>
@@ -14,15 +15,17 @@
 <body>
     <header>
         <div class="bg-image">
-            <figure>
-                <img src="./images/logo.svg" alt="Logo Blogr">
-            </figure>
-    
-            <div class="menu-btn">
-                <div class="hamburger"></div>
+            <div class="header-firstBlock">
+                <figure>
+                    <img src="./images/logo.svg" alt="Logo Blogr">
+                </figure>
+        
+                <div class="menu-btn">
+                    <div class="hamburger"></div>
+                </div>
             </div>
     
-            <nav class="menu">
+            <nav class="menu invisible">
                 <ul>
                     <li><a href="#">Product</a></li>
                     <li><a href="#">Company</a></li>
@@ -42,6 +45,8 @@
             </nav>
         </div>
     </header>
+
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>
