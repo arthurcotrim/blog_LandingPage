@@ -1,0 +1,47 @@
+.hamburger{
+    background: #fff;
+
+    width: 2rem;
+    height: .1rem;
+
+    position: relative;
+
+    margin: .2rem;
+
+    cursor: pointer;
+}
+
+.hamburger::after, .hamburger::before{
+    content: " ";
+    position: absolute;
+
+    background: #fff;
+
+    width: 2rem;
+    height: .1rem;
+
+    cursor: pointer;
+}
+
+.hamburger::before{
+    transform: translateY(.5rem)
+}
+.hamburger::after{
+    transform: translateY(-.5rem)
+}
+
+.menu-btn.open .hamburger{
+    transform: translateX(-50px);
+    background: transparent;
+}
+
+.menu-btn.open .hamburger::before{
+    transform: rotate(45deg) translate(2.3rem, -2.3rem); 
+
+}
+
+.menu-btn.open .hamburger::after{
+    transform: rotate(-45deg) translate(2.3rem, 2.3rem); 
+}
+
+
