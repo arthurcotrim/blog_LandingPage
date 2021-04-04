@@ -19,5 +19,23 @@ html, body{
 
 header {
     background: linear-gradient(355deg, hsl(353, 100%, 62%), hsl(13, 100%, 72%));
+
+    border-bottom-left-radius: 5rem;
 }
 
+.invisible{ 
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+    transform: all .2s ease-in-out .3s;
+}
+
+.header-firstBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem 3rem
+}
