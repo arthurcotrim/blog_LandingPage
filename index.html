@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/hamburger.css">
-    
+
     <title>Home | Blogr</title>
 </head>
 
@@ -19,30 +23,37 @@
                 <figure>
                     <img src="./images/logo.svg" alt="Logo Blogr">
                 </figure>
-        
+
                 <div class="menu-btn">
                     <div class="hamburger"></div>
                 </div>
             </div>
-    
-            <nav class="menu invisible">
-                <ul>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Company</a></li>
-                    <li><a href="#">Connect</a>
-                        <ul>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Newsletter</a></li>
-                            <li><a href="#">LinkedIn</a></li>
-                        </ul>
-                    </li>
-    
-                    <div class="container-buttons">
-                        <li><a href="#"></a>Login</li>
-                        <li><a href="#"></a>Sign Up</li>
-                    </div>
-                </ul>
-            </nav>
+
+            <div class="menu-container">
+                <nav class="menu invisible">
+                    <ul>
+                        <li><a href="#">Product</a><img src="./images/icon-arrow-dark.svg" alt="" class="arrow"></li>
+
+                        <li><a href="#">Company</a><img src="./images/icon-arrow-dark.svg" alt="" class="arrow"></li>
+
+                        <li><a href="#">Connect</a> <img src="./images/icon-arrow-dark.svg" alt="" class="arrow">
+                            <ul class="sub-menu">
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Newsletter</a></li>
+                                <li><a href="#">LinkedIn</a></li>
+                            </ul>
+                        </li>
+
+                        <div class="division-line">
+                            <div class="line"></div>
+                        </div>
+                        <div class="container-buttons">
+                            <li><a href="#" class="login-btn">Login</a></li>
+                            <li><a href="#" class="signUp-btn">Sign Up</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
