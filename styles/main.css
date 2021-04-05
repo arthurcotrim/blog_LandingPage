@@ -237,15 +237,24 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    width: 100%;
 }
 
 section h2 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 600;
 
     color: hsl(208, 49%, 24%);
 
-    line-height: 5;
+    line-height: 1.5;
+
+    word-break: break-word;
+    text-align: center;
+
+    width: 60%;
+
+    margin: 2rem auto;
 }
 
 section p {
@@ -255,12 +264,15 @@ section p {
     line-height: 2;
 
     text-align: center;
+    width: 25rem;
+
+    margin: 0 auto;
 }
 
 .bg-teste {
     background: url(../images/bg-pattern-circles.svg);
 
-    /* background-position: center; */
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -282,16 +294,28 @@ section p {
     padding: 5rem;
 }
 
-.infrastructure-section h2,
 .infrastructure-section p {
-    width: 25rem;
+    width: 19rem;
 
+    color: hsl(0, 0%, 100%);
+
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+.infrastructure-section h2{
+    font-size: 2rem;
     color: hsl(0, 0%, 100%);
 }
 
 .phones {
-    margin-top: -13rem;
+    margin-top: -15rem;
 
     width: 28rem;
     height: 28rem;
+}
+
+.laptop{
+    width: 100%;
 }
