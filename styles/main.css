@@ -228,3 +228,21 @@ header {
 
     transition: all 0.4s ease-in-out;
 }
+
+.future-section{
+    margin: 2rem auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.future-section h2{
+    font-size: 1.4rem;
+
+    color: hsl(208, 49%, 24%);
+
+    line-height: 5;
+}
+
