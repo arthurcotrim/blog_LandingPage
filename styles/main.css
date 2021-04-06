@@ -7,10 +7,17 @@
     font-size: 16px;
 }
 
-html,
-body {
-    width: 100%;
+::-webkit-scrollbar{
+    display: none;
+}
+
+html {
     height: 100%;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
 }
 
 .bg-image {
@@ -178,6 +185,7 @@ header {
 
     width: 18rem;
     text-align: center;
+    color: hsl(0, 0%, 97%);
 }
 
 .welcome .btns {
@@ -269,53 +277,6 @@ section p {
     margin: 0 auto;
 }
 
-.bg-teste {
-    background: url(../images/bg-pattern-circles.svg);
-
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    height: 100%;
-}
-
-.infrastructure-section {
-    background: linear-gradient(45deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-
-    border-bottom-left-radius: 4rem;
-    border-top-right-radius: 10rem;
-
-    width: 100%;
-    height: auto;
-
-    text-align: center;
-
-    margin-top: 15rem;
-    padding: 5rem;
-}
-
-.infrastructure-section p {
-    width: 19rem;
-
-    color: hsl(0, 0%, 100%);
-
-    text-align: center;
-
-    margin: 0 auto;
-}
-
-.infrastructure-section h2{
-    font-size: 2rem;
-    color: hsl(0, 0%, 100%);
-}
-
-.phones {
-    margin-top: -15rem;
-
-    width: 28rem;
-    height: 28rem;
-}
-
-.laptop{
+.laptop {
     width: 100%;
 }
