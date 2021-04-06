@@ -1,0 +1,166 @@
+.infrastructure-section {
+    background: linear-gradient(45deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 10rem;
+
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+
+    margin-top: 15rem;
+    padding: 2rem 0;
+}
+
+.bg-infrastructure {
+    background: url(../images/bg-pattern-circles.svg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 10rem;
+}
+
+.infrastructure-section p {
+    width: 19rem;
+
+    color: hsl(0, 0%, 100%);
+
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+.infrastructure-section h2 {
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.container-phones {
+    width: 100%;
+    height: 100%;
+}
+
+.image-phones {
+    margin-top: -15rem;
+
+    width: 100%;
+    height: 30rem;
+
+    background: url(../images/illustration-phones.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 900px) {
+    .infrastructure-section {
+        margin-top: 5rem;
+    }
+
+    .infrastructure-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 450px 400px);
+
+        margin: 0 auto;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-phones {
+        margin: 0 0 -100px;
+        width: 100%;
+        height: 30rem;
+
+        background: url(../images/illustration-phones.svg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bg-infrastructure {
+        background: url(../images/bg-pattern-circles.svg);
+
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-size: 600px;
+
+        height: 100%;
+        width: 100%;
+
+        border-bottom-left-radius: 4rem;
+        border-top-right-radius: 10rem;
+    }
+
+    .container-text-infrastructure p {
+        text-align: left;
+
+        line-height: 2;
+
+        width: auto;
+    }
+
+    .container-text-infrastructure h2 {
+        word-break: normal;
+
+        width: auto;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1150px) {
+    .infrastructure-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 500px 500px);
+
+        margin: 0 auto;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-phones {
+        margin: 0 0 -100px;
+        width: 100%;
+        height: 30rem;
+
+        background: url(../images/illustration-phones.svg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bg-infrastructure {
+        background: url(../images/bg-pattern-circles.svg);
+
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-size: 600px;
+
+        height: 100%;
+
+        border-bottom-left-radius: 4rem;
+        border-top-right-radius: 10rem;
+    }
+
+    .container-text-infrastructure p {
+        text-align: left;
+
+        line-height: 2;
+
+        width: auto;
+    }
+
+    .container-text-infrastructure h2 {
+        word-break: normal;
+
+        width: auto;
+        text-align: left;
+    }
+}
