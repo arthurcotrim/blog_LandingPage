@@ -66,9 +66,11 @@
     .image {
         background: url(../images/illustration-editor-desktop.svg);
         background-repeat: no-repeat;
-        background-position: left center;
+        background-position: right;
+        background-size: cover;
 
-        width: 700px;
+
+        width: 680px;
         height: 100%;
     }
 }
