@@ -2,7 +2,7 @@ footer {
     background: hsl(240, 10%, 16%);
 
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
 
     flex-direction: column;
@@ -24,9 +24,54 @@ footer ul {
 
 footer p{
     font-weight: 600;
-    line-height: 2;
+    margin-bottom: 1.5rem;
 }
 
 footer ul li{
     margin: .65rem auto;
+    cursor: pointer;
+}
+
+.footer-items li:hover{
+    text-decoration: underline;
+}
+
+@media (min-width: 965px) {
+    footer{
+        flex-direction: row;
+        justify-content: stretch;
+        
+        margin: 0 auto;
+        padding: 3rem 4rem;
+    }
+
+    footer ul{
+        margin: 0 auto;
+    }
+
+    footer figure{
+        padding-left: 5rem;
+    }
+    
+    .footer-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 150px;
+
+        justify-content: space-between;
+        align-items: top;
+        text-align: left;   
+    }
+
+    .product{
+        grid-column: 2/3;
+    }
+
+    .company{
+        grid-column:3/4;
+    }
+
+    .connect{
+        grid-column: 4/5;
+    }
 }
