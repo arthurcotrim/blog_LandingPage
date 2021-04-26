@@ -1,0 +1,83 @@
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem;
+}
+
+.menu-container{
+    width: 100%;
+}
+
+.menu{
+    background: #fff;
+
+    font: 600 1rem "Overpass";
+    text-align: center;
+
+    margin: 0 auto;
+    padding: 2rem;
+
+    width: 19em;
+    height: auto;
+
+    border-radius: 0.4rem;
+
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    line-height: 3
+}
+
+.menu li a{
+    text-decoration: none;
+
+    color: hsl(208, 49%, 24%);
+}
+
+.sub-menu li{
+    line-height: 2;
+}
+
+.sub-menu{
+    background: hsl(240, 6%, 94%);
+    border-radius: 0.3rem;
+
+    margin: 1rem auto;
+    padding: 1rem;
+
+    visibility: visible;
+    display: none;
+}
+
+.arrow {
+    margin-left: 0.4rem;
+    cursor: pointer;
+}
+
+hr{
+    border: 1px solid hsl(240, 6%, 93%);
+}
+
+.container-buttons{
+    margin-top: 2rem;
+}
+
+.container-buttons .signUp-btn {
+    background: linear-gradient(355deg, hsl(353, 100%, 62%), hsl(13, 100%, 72%));
+    color: hsl(0, 0%, 97%);
+
+    padding: .9rem 2.5rem;
+
+    border-radius: 3rem;
+}
+
+.signUp-btn:hover {
+    background: hsl(355, 100%, 74%);
+}
