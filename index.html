@@ -10,9 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
 
+
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/hamburger.css">
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/hamburger.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/future-section.css">
     <link rel="stylesheet" href="./styles/infrastructure-section.css">
@@ -25,39 +26,41 @@
     <header>
         <div class="bg-image">
             <div class="header-content">
-                <figure>
-                    <img src="./images/logo.svg" alt="Logo Blogr">
-                </figure>
-
-                <div class="menu-btn">
-                    <div class="hamburger"></div>
+                <div class="container-hamburger">
+                    <figure>
+                        <img src="./images/logo.svg" alt="Logo Blogr" class="logo">
+                    </figure>
+    
+                    <div class="menu-btn">
+                        <div class="hamburger"></div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="menu-container">
-                <nav class="menu invisible">
-                    <ul>
-                        <li><a href="#">Product</a><img src="./images/icon-arrow-dark.svg" alt="" class="arrow"></li>
-
-                        <li><a href="#">Company</a><img src="./images/icon-arrow-dark.svg" alt="" class="arrow"></li>
-
-                        <li><a href="#">Connect</a> <img src="./images/icon-arrow-dark.svg" alt=""
-                                class="arrow last-arrow">
-                            <ul class="sub-menu invisible">
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Newsletter</a></li>
-                                <li><a href="#">LinkedIn</a></li>
-                            </ul>
-                        </li>
-
-                        <hr>
-
-                        <div class="container-buttons">
-                            <li><a href="#" class="login-btn">Login</a></li>
-                            <li><a href="#" class="signUp-btn">Sign Up</a></li>
-                        </div>
-                    </ul>
-                </nav>
+                <div class="top-navbar invisible">
+                    <nav class="navbar">
+                        <ul class="navbar-nav">
+                            <li class="items"><a href="#">Product<img src="./images/icon-arrow-dark.svg" alt="Arrow"
+                                        class="arrow"></a>
+                            </li>
+                            <li class="items"><a href="#">Company<img src="./images/icon-arrow-dark.svg" alt="Arrow"
+                                        class="arrow"></a>
+                            </li>
+                            <li class="dropdown"><a href="#">Connect <img src="./images/icon-arrow-dark.svg"
+                                        alt="Arrow" class="arrow last-arrow"></a>
+                                <ul class="dropdown-menu invisible">
+                                    <li><a href="#" class="dropdown-item">Contact</a></li>
+                                    <li><a href="#" class="dropdown-item">Newsletter</a></li>
+                                    <li><a href="#" class="dropdown-item">LinkedIn</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <hr>
+                    <div class="container-buttons">
+                        <a href="#" class="login-btn">Login</a>
+                        <a href="#" class="signUp-btn">Sign up</a>
+                    </div>
+                </div>
             </div>
 
             <section class="welcome">
@@ -179,6 +182,7 @@
     </footer>
 
     <script src="./scripts/script.js"></script>
+
 </body>
 
 </html>
