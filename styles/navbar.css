@@ -195,6 +195,9 @@ hr {
 }
 
 @media (min-width: 920px) {
+    #change-arrow{
+        stroke: #fff;
+    }
     hr, .menu-btn {
         display: none;
         visibility: hidden;
