@@ -29,5 +29,4 @@ img.onclick = () => {
 
   img.classList.toggle("rotate-arrow");
 }
-let w = window.onload(window.innerWidth);
 
